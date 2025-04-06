@@ -1,0 +1,27 @@
+.nav-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:20px 100px;
+}
+.nav-link {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav-link a {
+    text-decoration: none; 
+    font-weight: bold;
+    transition: all 0.6s ease; 
+}
+
+.nav-link a:hover {
+    color: rgb(179, 25, 25);
+}
+
+
+.active-link {
+    color: rgb(179, 25, 25);
+}
