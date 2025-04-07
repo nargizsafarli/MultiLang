@@ -1,3 +1,10 @@
+
+import img1 from "./assets/1.png"
+import img2 from "./assets/2.png"
+import img3 from "./assets/3.png"
+import img4 from "./assets/4.png"
+import img5 from "./assets/5.png"
+import img6 from "./assets/6.png"
 const menuData = [
     {
       nameAz: "Peperoni pizza",
@@ -6,7 +13,7 @@ const menuData = [
       ingredientsEng: "Italian pepperoni, mozzarella cheese, tomato sauce, oregano, olive oil",
       deliveryPrice: 8,
       price: 15.00,
-      img: "./assets/1.png",
+      img: img1,
     },
     {
       nameAz: "Göbələkli pizza",
@@ -15,7 +22,7 @@ const menuData = [
       ingredientsEng: "Fresh mushrooms, mozzarella, creamy sauce, parsley, red onion",
       deliveryPrice: 8,
       price: 14.50,
-      img: "./assets/2.png",
+      img: img2,
     },
     {
       nameAz: "Tərəvəzli pizza",
@@ -24,7 +31,7 @@ const menuData = [
       ingredientsEng: "Tomatoes, bell peppers, olives, corn, mozzarella",
       deliveryPrice: 8,
       price: 13.00,
-      img: "./assets/3.png",
+      img: img3,
     },
     {
       nameAz: "Toyuqlu pizza",
@@ -33,7 +40,7 @@ const menuData = [
       ingredientsEng: "Grilled chicken, BBQ sauce, mozzarella, green onion, peppers",
       deliveryPrice: 8,
       price: 15.50,
-      img: "./assets/4.png",
+      img: img4,
     },
     {
       nameAz: "Dəniz məhsullu pizza",
@@ -42,7 +49,7 @@ const menuData = [
       ingredientsEng: "Shrimp, squid, mozzarella, garlic sauce, lemon zest",
       deliveryPrice: 10,
       price: 17.00,
-      img: "./assets/5.png",
+      img: img5,
     },
     {
       nameAz: "4 pendirli pizza",
@@ -51,8 +58,8 @@ const menuData = [
       ingredientsEng: "Mozzarella, parmesan, gorgonzola, goat cheese, cream sauce",
       deliveryPrice: 8,
       price: 16.00,
-      img: "./assets/6.png",
+      img: img6,
     },
   ];
-  
+
   export default menuData;

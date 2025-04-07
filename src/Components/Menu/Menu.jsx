@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import menuData from '../Data/Data'
+import "./Menu.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Menu() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+  
   return (
-    <div className='menu-container'>
+    <div className='menu-container' >
   {
     menuData.map((item,index)=>(
-      <div key={index}>
-       <div><img src={item.img}/></div> 
+      <div key={index} className='menu-card' data-aos="fade-up">
+       <div className='card-img'><img src={item.img}/></div> 
        <div>
         <h3>{item.nameAz}</h3>
           <p>{item.ingredientsAz}</p>
