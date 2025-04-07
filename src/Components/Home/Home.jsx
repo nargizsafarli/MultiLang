@@ -6,8 +6,10 @@ import img1 from "./assets/baner.png";
 import img2 from "./assets/baner1.png";
 import img3 from "./assets/first-slider.png";
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate=useNavigate()
   var settings = {
     dots: true,
     infinite: true,
@@ -27,6 +29,7 @@ function Home() {
             <div className="slider-left">
               <h3>Best In Cafeu</h3>
               <p>slamssdjdjdjd</p>
+              <button onClick={()=>{navigate("/menu")}} className="order-now">Order Now</button>
             </div>
             <img src={img1} />
           </div>
@@ -37,6 +40,7 @@ function Home() {
             <div className="slider-left">
               <h3>Salammm</h3>
               <p>Bu birinci slayddır.</p>
+              <button onClick={()=>{navigate("/menu")}} className="order-now">Order Now</button>
             </div>
             <img src={img2} />
           </div>
@@ -46,11 +50,14 @@ function Home() {
             <div className="slider-left">
               <h3>Salammm</h3>
               <p>Bu birinci slayddır.</p>
+              <button onClick={()=>{navigate("/menu")}} className="order-now">Order Now</button>
             </div>
             <img src={img3} />
           </div>
         </div>
+      
       </Slider>
+     
     </div>
   );
 }
