@@ -1,0 +1,16 @@
+{
+    "navbar": {
+      "home": "Ana səhifə",
+      "menu": "Menyu",
+      "about": "Haqqımızda"
+    },
+    "home":{
+        "best":"Ən yaxsı secim bizik",
+        "inf":"Muxtəlif dadlarda Müxtlif Ədviyyatlar",
+        "inf1.1":"BBQ toyuq və Salat avocado sosu ilə",
+        "inf1.2":"Doğranmış salad ilə Asia soslu Kahı seti",
+        "inf2":"Elə indi sifaris ver! Biz qapına pulsuz çatdıraq.Hər sey barmagının ucundadır",
+        "orderBtn":"Sifariş ver"
+    }
+  }
+  

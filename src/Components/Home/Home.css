@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .slider-container {
     width: 100%;
@@ -70,4 +71,27 @@
 
   .slick-dots li.slick-active button:before {
     background: red;
+  }
+  .slider-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+
+    p{
+      font-size: 23px;
+      color: rgb(141, 9, 9);
+    }
+    h3{
+      font-size: 40px;
+      width: 500px;
+    }
+    span{
+      font-size: 15px;
+    }
+  }
+  .order-now{
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
   }

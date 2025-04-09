@@ -7,9 +7,12 @@ import img2 from "./assets/baner1.png";
 import img3 from "./assets/first-slider.png";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 
 function Home() {
-  const navigate=useNavigate()
+  const { t } = useTranslation();
+  const navigate = useNavigate();
   var settings = {
     dots: true,
     infinite: true,
@@ -17,7 +20,7 @@ function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 10000,
     pauseOnHover: false,
   };
 
@@ -27,9 +30,17 @@ function Home() {
         <div className="slide">
           <div className="slide-content">
             <div className="slider-left">
-              <h3>Best In Cafeu</h3>
-              <p>slamssdjdjdjd</p>
-              <button onClick={()=>{navigate("/menu")}} className="order-now">Order Now</button>
+              <p>{t("home.best")}</p>
+              <h3>{t("home.inf")}</h3>
+              <span>{t("home.inf2")}</span>
+              <button
+                onClick={() => {
+                  navigate("/menu");
+                }}
+                className="order-now"
+              >
+                {t("home.orderBtn")}
+              </button>
             </div>
             <img src={img1} />
           </div>
@@ -38,9 +49,17 @@ function Home() {
         <div className="slide">
           <div className="slide-content">
             <div className="slider-left">
-              <h3>Salammm</h3>
-              <p>Bu birinci slayddır.</p>
-              <button onClick={()=>{navigate("/menu")}} className="order-now">Order Now</button>
+            <p>{t("home.best")}</p>
+              <h3>{t("home.inf1.2")}</h3>
+              <span>{t("home.inf2")}</span>
+              <button
+                onClick={() => {
+                  navigate("/menu");
+                }}
+                className="order-now"
+              >
+                {t("home.orderBtn")}
+              </button>
             </div>
             <img src={img2} />
           </div>
@@ -48,16 +67,22 @@ function Home() {
         <div className="slide">
           <div className="slide-content">
             <div className="slider-left">
-              <h3>Salammm</h3>
-              <p>Bu birinci slayddır.</p>
-              <button onClick={()=>{navigate("/menu")}} className="order-now">Order Now</button>
+            <p>{t("home.best")}</p>
+              <h3>{t("home.inf1.1")}</h3>
+              <span>{t("home.inf2")}</span>
+              <button
+                onClick={() => {
+                  navigate("/menu");
+                }}
+                className="order-now"
+              >
+                {t("home.orderBtn")}
+              </button>
             </div>
             <img src={img3} />
           </div>
         </div>
-      
       </Slider>
-     
     </div>
   );
 }

@@ -1,0 +1,13 @@
+{
+    "navbar": {
+      "home": "Home",
+      "menu": "Menu",
+      "about": "About"
+    },
+    "home":{
+        "best":"Best in cafeu",
+        "inf":"Different Spice For A Different Taste",
+        "inf2":"Order now! We deliver to your door for free. Everything is at your fingertips",
+        "orderBtn":"Order now"
+    }
+  }
