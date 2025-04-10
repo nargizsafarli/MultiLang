@@ -13,14 +13,15 @@ import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import "./Footer.css";
+import { useTranslation } from 'react-i18next';
 
 function Footer() {
+  const {t}=useTranslation()
   return (
     <div className='footer-container'>
-      {/* Left - Logo və əlaqə məlumatları */}
       <div className='footer-item'>
         <img className='logo-img' src={logoFooter} alt="Cafeu Logo" />
-        <p>Lorem ipsum dolor sit consectetur, ame adipiscing elit, sed do</p>
+        <p>{t("footer.sec1")}</p>
         <div className='loc'>
           <IoLocationOutline />
           <div className='loc-item'>
@@ -45,15 +46,15 @@ function Footer() {
 
       {/* Quick links */}
       <div className='footer-item'>
-        <h3 className='footer-title'>Quick links</h3>
+        <h3 className='footer-title'>{t("footer.sec2Header")}</h3>
         <div className='footer-body'>
-          <p>About Us</p>
-          <p>Menu</p>
-          <p>Blogs</p>
-          <p>FAQ</p>
-          <p>Service</p>
-          <p>Gallery</p>
-          <p>Contact Us</p>
+          <p>{t("footer.sec2.1")}</p>
+          <p>{t("footer.sec2.2")}</p>
+          <p>{t("footer.sec2.3")}</p>
+          <p>{t("footer.sec2.4")}</p>
+          <p>{t("footer.sec2.5")}</p>
+          <p>{t("footer.sec2.6")}</p>
+          <p> {t("footer.sec2.7")}</p>
         </div>
       </div>
 
@@ -72,8 +73,8 @@ function Footer() {
 
       {/* Subscribe bölməsi */}
       <div className='footer-item'>
-        <h3 className='footer-title'>Subscribe</h3>
-        <p>Lorem ipsum dolor si consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et</p>
+        <h3 className='footer-title'>{t("footer.sec4Header")}</h3>
+        <p>{t("footer.sec4")}</p>
         <div className='footer-icons'>
           <a href="#"><FaFacebook /></a>
           <a href="#"><FaTwitter /></a>

@@ -11,6 +11,34 @@
         "inf1.2":"Doğranmış salad ilə Asia soslu Kahı seti",
         "inf2":"Elə indi sifaris ver! Biz qapına pulsuz çatdıraq.Hər sey barmagının ucundadır",
         "orderBtn":"Sifariş ver"
+    },
+    "footer":{
+      "sec1":"Ən yaxşı dadlarla tanış olmaq isteyirsense onda aşağıdakı məlumatlarla bizimlə əlaqə saxlaya bilərsizniz",
+      "sec2Header":"Sürətli linklər",
+      "sec2.1":"Haqqımızda",
+      "sec2.2":"Menyu",
+      "sec2.3":"Bloqlar",
+      "sec2.4":"FAQ",
+      "sec2.5":"Servis",
+      "sec2.6":"Qaleriyya",
+      "sec2.7":"Bizimlə əlaqə",
+      "sec4Header":"Abone ol",
+      "sec4":"Aşağıdakı linklər vasitəsi ilə bizə abone ol.Yeniliklərdən ilk sən xəbərdar ol!"
+    },
+    "about":{
+      "backImg":"Ana Səhifə/Haqqımızda",
+      "aboutUs1":"Haqqımızda",
+      "aboutUs2":"Biz Nə Üçün Ən Yaxşısıyıq",
+      "aboutUs3":"Cunki betikde bele yani",
+      "aboutUsBuffet":"Bufet Servisimiz",
+      "buffetInf":"Burada özəl olaraq müştərilərimiz qarşılayıb servisimiz ilə təmin edirik",
+      "aboutUsBuffet2":"Onlayn Alış-veriş",
+      "buffetInf2":"İndi sifariş ver qapına çatdlraq",
+      "aboutBtn":"Haqqımızda",
+      "action":"Fəaliyyətə Çağırış",
+      "hire":"Discate üzrə növbəti namizədinizi işə götürürük",
+      "callUs":"Bizimlə ələqə: +99 687 569 875",
+      "discoverBtn":"Daha Cox"
     }
   }
   

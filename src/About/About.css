@@ -1,0 +1,158 @@
+/* .about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+.about-img{
+    background-image: url("./assets/page-ban-bg.1c5d82ab.png");
+}
+.discover-more{
+    background-image: url("./assets/call-2.e19a64d0.png");
+} */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-img {
+    background-image: url("./assets/page-ban-bg.1c5d82ab.png");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    text-align: center;
+    font-size: 102px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .about-img span {
+    font-size: 18px;
+    color: #ddd;
+  }
+  
+  .about-inf {
+    display: flex;
+    gap: 50px;
+    padding: 50px 10%;
+  }
+  
+  .about-inf-img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .inf-right {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .inf-right p {
+    color: #ff4d4f;
+    font-weight: 600;
+  }
+  
+  .inf-right h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .inf-right span {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .service-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .service-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  .service-right h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #222;
+  }
+  
+  .service-right span {
+    font-size: 15px;
+    color: #666;
+  }
+  
+  .About-us {
+    padding: 12px 24px;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: start;
+  }
+  
+  .About-us:hover {
+    background-color: #d9363e;
+  }
+  
+  .discover-more {
+    background-image: url("./assets/call-2.e19a64d0.png");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .discover-more p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .discover-more h3 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  
+  .discover-more span {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .dis-moreBtn {
+    padding: 10px 20px;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dis-moreBtn:hover {
+    background-color: #d9363e;
+  }
+  

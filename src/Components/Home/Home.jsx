@@ -20,7 +20,7 @@ function Home() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 10000,
+    autoplaySpeed: 3000,
     pauseOnHover: false,
   };
 
@@ -50,8 +50,8 @@ function Home() {
           <div className="slide-content">
             <div className="slider-left">
             <p>{t("home.best")}</p>
-              <h3>{t("home.inf1.2")}</h3>
-              <span>{t("home.inf2")}</span>
+            <h3>{t("home.inf")}</h3>
+            <span>{t("home.inf2")}</span>
               <button
                 onClick={() => {
                   navigate("/menu");
@@ -68,8 +68,8 @@ function Home() {
           <div className="slide-content">
             <div className="slider-left">
             <p>{t("home.best")}</p>
-              <h3>{t("home.inf1.1")}</h3>
-              <span>{t("home.inf2")}</span>
+            <h3>{t("home.inf")}</h3>
+            <span>{t("home.inf2")}</span>
               <button
                 onClick={() => {
                   navigate("/menu");
