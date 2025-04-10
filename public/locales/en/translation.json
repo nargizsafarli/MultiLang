@@ -1,13 +1,43 @@
 {
-    "navbar": {
-      "home": "Home",
-      "menu": "Menu",
-      "about": "About"
-    },
-    "home":{
-        "best":"Best in cafeu",
-        "inf":"Different Spice For A Different Taste",
-        "inf2":"Order now! We deliver to your door for free. Everything is at your fingertips",
-        "orderBtn":"Order now"
-    }
+  "navbar": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About"
+  },
+  "home": {
+    "best": "We Are the Best Choice",
+    "inf": "Various Flavors with Different Spices",
+    "inf1.1": "BBQ Chicken and Avocado Sauce Salad",
+    "inf1.2": "Chopped Salad with Asian Sauce Lettuce Set",
+    "inf2": "Order now! We deliver to your door for free. Everything is at your fingertips",
+    "orderBtn": "Order Now"
+  },
+  "footer": {
+    "sec1": "If you want to discover the best tastes, you can contact us using the information below",
+    "sec2Header": "Quick Links",
+    "sec2.1": "About Us",
+    "sec2.2": "Menu",
+    "sec2.3": "Blogs",
+    "sec2.4": "FAQ",
+    "sec2.5": "Service",
+    "sec2.6": "Gallery",
+    "sec2.7": "Contact Us",
+    "sec4Header": "Subscribe",
+    "sec4": "Subscribe through the links below and be the first to hear about updates!"
+  },
+  "about": {
+    "backImg": "Home/About",
+    "aboutUs1": "About Us",
+    "aboutUs2": "Why We Are the Best",
+    "aboutUs3": "Because that’s how it is in the script",
+    "aboutUsBuffet": "Our Buffet Service",
+    "buffetInf": "Here, we specially welcome our customers and provide them with our service",
+    "aboutUsBuffet2": "Online Shopping",
+    "buffetInf2": "Order now and we’ll deliver to your door",
+    "aboutBtn": "About Us",
+    "action": "Call to Action",
+    "hire": "We are hiring your next candidate in discate",
+    "callUs": "Contact us: +99 687 569 875",
+    "discoverBtn": "Discover More"
   }
+}
