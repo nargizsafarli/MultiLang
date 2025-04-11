@@ -29,7 +29,7 @@
       "backImg":"Ana Səhifə/Haqqımızda",
       "aboutUs1":"Haqqımızda",
       "aboutUs2":"Biz Nə Üçün Ən Yaxşısıyıq",
-      "aboutUs3":"Cunki betikde bele yani",
+      "aboutUs3":"Biz təkçə yemək təqdim etmirik,həm də dadlı xatirələr bəxş edirik.Təcrübəli aşpazlarımız və keyfiyyətli məhsullarımızla hər zövqə uyğun menyu təqdim edirik. Müştəri məmnuniyyəti bizim üçün birinci yerdədir.",
       "aboutUsBuffet":"Bufet Servisimiz",
       "buffetInf":"Burada özəl olaraq müştərilərimiz qarşılayıb servisimiz ilə təmin edirik",
       "aboutUsBuffet2":"Onlayn Alış-veriş",
@@ -39,6 +39,10 @@
       "hire":"Discate üzrə növbəti namizədinizi işə götürürük",
       "callUs":"Bizimlə ələqə: +99 687 569 875",
       "discoverBtn":"Daha Cox"
+    },
+    "menu":{
+      "delivery":"Çatdırılma",
+      "price":"Qiymət"
     }
   }
   

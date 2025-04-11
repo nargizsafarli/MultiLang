@@ -29,7 +29,7 @@
     "backImg": "Home/About",
     "aboutUs1": "About Us",
     "aboutUs2": "Why We Are the Best",
-    "aboutUs3": "Because that’s how it is in the script",
+    "aboutUs3": "We don’t just serve food — we create delicious memories.Our skilled chefs and quality ingredients offer a menu for every taste.Customer satisfaction is always our top priority.",
     "aboutUsBuffet": "Our Buffet Service",
     "buffetInf": "Here, we specially welcome our customers and provide them with our service",
     "aboutUsBuffet2": "Online Shopping",
@@ -39,5 +39,9 @@
     "hire": "We are hiring your next candidate in discate",
     "callUs": "Contact us: +99 687 569 875",
     "discoverBtn": "Discover More"
+  },
+  "menu":{
+    "delivery":"Delivery",
+    "price":"Price"
   }
 }

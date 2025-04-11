@@ -25,3 +25,7 @@
 .active-link {
     color: rgb(179, 25, 25);
 }
+.nav-contact{
+    display: flex;
+    align-items: center;
+}

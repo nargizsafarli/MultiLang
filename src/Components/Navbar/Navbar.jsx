@@ -9,9 +9,6 @@ import { useTranslation } from 'react-i18next'
 
 function Navbar() {
   const {t}=useTranslation()
-  // const changeLang=(myLang)=>{
-  //   i18next.changeLanguage(myLang)
-  // }
   const handleChange = value => {
     i18next.changeLanguage(value)
   };
@@ -29,7 +26,8 @@ function Navbar() {
         </div>
         <div className='changeLang'>
         <Select
-      defaultValue="az"
+      // defaultValue="az",
+      value={i18next.language}
       style={{ width: 120 }}
       onChange={handleChange}
       options={[
